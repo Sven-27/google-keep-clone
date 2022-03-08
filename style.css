@@ -29,7 +29,7 @@ main {
   flex-direction: column;
 }
 
-#placeholder-logo {
+.fa-light {
   height: 120px;
   margin: 20px;
   opacity: 0.1;
@@ -274,11 +274,10 @@ input:focus {
   opacity: 1;
 }
 
-.toolbar-color,
-.toolbar-delete {
-  height: 20px;
+.fa-palette,
+.fa-trash-can {
+  font-size: 20px;
   margin: 0 8px;
-  width: 20px;
   margin: 0 3px;
   cursor: pointer;
   color: #202124;
